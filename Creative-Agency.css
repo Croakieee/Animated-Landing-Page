@@ -1,0 +1,150 @@
+/* Reset some default styles for better consistency across browsers */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Services Section */
+#services {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.service-card img {
+    max-width: 100px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+    color: #fff;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info, .social-links {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    form {
+        padding: 0 20px;
+    }
+}
+
+
+/*Этот CSS-код предоставляет базовый дизайн для каждого раздела вашего лендинга. 
+Он также включает некоторые стили для адаптивного дизайна, что обеспечивает хорошее отображение на устройствах с различной шириной экрана. 
+Не забудьте связать этот CSS с вашим HTML-кодом, добавив ссылку на файл стилей внутри вашего <head>:
+html
+<link rel="stylesheet" href="styles.css">*/
